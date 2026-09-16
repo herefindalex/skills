@@ -1,0 +1,6 @@
+interface:
+  display_name: "Money Correctness Review"
+  short_description: "Review monetary invariants, provenance, and recovery"
+  default_prompt: "Use $money-correctness-review to review this repository, pull request, or design. Start read-only, establish its monetary policies and boundaries, and produce evidence-backed findings plus a targeted failure and test matrix."
+policy:
+  allow_implicit_invocation: true
