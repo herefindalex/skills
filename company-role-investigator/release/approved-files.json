@@ -1,0 +1,11 @@
+{
+  "assets/icon.png": "a55106145fcc785585ea3a3fc0c0b6147b7998464c79b339d0590452f3ec64f1",
+  "plugin.json": "83102647499c8c518a68112fa8035c2bfe59f6bcec8fbec4a291902e53ffb180",
+  "skills/investigate-company-role/SKILL.md": "6d410cffa60828e051279cbd38a4ed818e7739f0aec7b3a5e5967d8674067ba7",
+  "skills/investigate-company-role/assets/report-template.md": "2079b711d745ed688857437c4c1bb80eb9ae8e439237b0cdb3d4958f7172fc24",
+  "skills/investigate-company-role/references/evidence-rules.md": "9bf7b0edae608e1f9fc9127087bbdbfa24cf0f68e2eadb620f95f215c53a2900",
+  "skills/investigate-company-role/references/research-process.md": "a5f80bcf18fe0a8f369ec6c574f0ddc15155e33a80130081cf0126e40030f690",
+  "skills/investigate-company-role/references/role-and-challenge-analysis.md": "fb3a1db93d30bb9f5585ff861999df2a299d27045217ea1d7abd87c7152d4408",
+  "skills/investigate-company-role/references/synthetic-examples.md": "57aa93d0b1ae7229bb8e8b34e7d4a28584d2e434dd8c3aae21abc91c42e61ba7",
+  "skills/investigate-company-role/references/validation-and-updates.md": "79e54fb6d4161eedf693f71d2d6f516897341bb3380948decec79ef17ad9240c"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "company-role-prototype",
+  "interface": {
+    "displayName": "Company Role Prototype"
+  },
+  "plugins": [
+    {
+      "name": "company-role-investigator",
+      "source": {
+        "source": "local",
+        "path": "./publish/company-role-investigator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

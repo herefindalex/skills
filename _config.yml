@@ -1,0 +1,10 @@
+title: Skills by Alex Chang
+description: Reusable research and engineering skills.
+url: https://herefindalex.github.io
+baseurl: /skills
+theme: jekyll-theme-primer
+exclude:
+  - company-role-investigator/docs/internal
+  - company-role-investigator/dist
+  - company-role-investigator/tests
+  - company-role-investigator/tools

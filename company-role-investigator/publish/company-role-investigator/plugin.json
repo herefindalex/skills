@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "company-role-investigator",
+  "version": "0.1.0",
+  "description": "Research companies and roles with sourced context, challenge hypotheses, and interview validation questions.",
+  "author": {
+    "name": "Alex Chang",
+    "email": "herefindalex@gmail.com"
+  },
+  "keywords": [
+    "company research",
+    "role research",
+    "interview preparation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Company & Role Investigator",
+        "shortDescription": "Understand a company, a role, and what to validate in an interview.",
+        "longDescription": "Research company and product context, role responsibilities, and evidence-based challenge hypotheses using available public sources and user-provided material. Distinguish sourced claims, inferences, alternatives, and unknowns, then prepare interview questions that can change the assessment.",
+        "developerName": "Alex Chang",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": [
+          "Investigate this company and Backend Team Lead role: what problems might the role actually need to solve?",
+          "What might this Engineering Manager be responsible for at this company, and which decision rights should I verify?",
+          "I received the following new information after an interview. Update the affected hypotheses in this research."
+        ],
+        "brandColor": "#142e40",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

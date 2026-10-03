@@ -1,0 +1,9 @@
+/docs/internal/
+/private-cases/
+/private-evaluations/
+/dist/
+/.superpowers/
+/.worktrees/
+.env*
+__pycache__/
+*.pyc
