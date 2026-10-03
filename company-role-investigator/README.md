@@ -31,6 +31,6 @@ Build only from `publish/company-role-investigator/`. Reviewed file hashes are i
 
 Private cases, evaluation outputs, execution records, reviews, handoff documents, and unapproved release drafts are stored under `docs/internal/` and excluded by `.gitignore`. Generated archives are stored under the ignored `dist/` directory. Neither directory is included in the plugin package.
 
-See the [privacy policy](privacy-policy.md) for data-handling details.
+See the [privacy policy](https://herefindalex.github.io/skills/company-role-investigator/privacy-policy/) for data-handling details.
 
 Publisher: Alex Chang. Support: herefindalex@gmail.com. Repository license: [MIT](../LICENSE).

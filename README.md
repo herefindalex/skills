@@ -128,4 +128,4 @@ Created and maintained by [Alex Chang](https://github.com/herefindalex).
 
 ## Company & Role Investigator
 
-[Company & Role Investigator](company-role-investigator/README.md) provides sourced company and role research, challenge hypotheses, and interview validation questions. The Skills-only prototype has no MCP server or publisher-operated backend. See its [privacy policy](company-role-investigator/privacy-policy.md).
+[Company & Role Investigator](company-role-investigator/README.md) provides sourced company and role research, challenge hypotheses, and interview validation questions. The Skills-only prototype has no MCP server or publisher-operated backend. See its [privacy policy](https://herefindalex.github.io/skills/company-role-investigator/privacy-policy/).

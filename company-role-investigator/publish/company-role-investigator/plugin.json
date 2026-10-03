@@ -30,7 +30,8 @@
         ],
         "brandColor": "#142e40",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "privacyPolicyURL": "https://herefindalex.github.io/skills/company-role-investigator/privacy-policy/"
       }
     }
   }
