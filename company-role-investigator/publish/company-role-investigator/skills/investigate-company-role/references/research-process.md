@@ -75,6 +75,8 @@ When tools, login, payment, or original-source access limit research, or the use
 
 Read [Validation and updates](validation-and-updates.md) and the [Report template](../assets/report-template.md). Usually provide three to five questions that could change the interpretation, or fewer when appropriate. Place sources beside claims; exploratory hypotheses do not become established conclusions in the summary.
 
+Use the question structure in Validation and updates: a recent target-team example, the decision owner, and distinct answer-linked revisions. Present each question once; if it already appears with its hypothesis, refer to that item rather than restating the full card in a final question list.
+
 ## P8: Updates in the same conversation
 
 Use new interview answers or materials to revise affected hypotheses and questions. Keep public and private sources distinct. Do not rewrite unaffected company background or pretend to have cross-conversation memory. [T14/R04]

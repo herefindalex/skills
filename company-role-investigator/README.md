@@ -2,7 +2,7 @@
 
 Understand the company, locate the role, form challenge hypotheses, and prepare interview validation questions. This plugin provides research instructions, evidence rules, and a report template to distinguish facts, limited inferences, alternatives, and unknowns.
 
-Version 0.1.0 is a prototype that has not been published to the public plugin directory. The Skills-only package has no MCP server, hooks, publisher-operated backend, or runtime Python dependency.
+Version 0.1.1. The Skills-only package has no MCP server, hooks, publisher-operated backend, or runtime Python dependency.
 
 ## Usage
 
@@ -20,16 +20,16 @@ Python 3.11 or later, standard library only. Run from this project directory:
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 tools/check_package.py --root publish/company-role-investigator --mode draft --approved release/approved-files.json
-python3 tools/build_package.py --root publish/company-role-investigator --mode draft --approved release/approved-files.json --output dist/my-new-draft.zip
-python3 -m zipfile -t dist/my-new-draft.zip
+python3 tools/check_package.py --root publish/company-role-investigator --mode release --approved release/approved-files.json
+python3 tools/build_package.py --root publish/company-role-investigator --mode release --approved release/approved-files.json --output dist/company-role-investigator-0.1.1.zip
+python3 -m zipfile -t dist/company-role-investigator-0.1.1.zip
 ```
 
-Build only from `publish/company-role-investigator/`. Reviewed file hashes are in `release/approved-files.json`; review changed source files before updating that list. Public release still requires complete listing metadata, a published privacy policy, and quality and host validation.
+Build only from `publish/company-role-investigator/`. Reviewed file hashes are in `release/approved-files.json`; review changed source files before updating that list. The builder refuses to overwrite an existing archive. Upload the generated ZIP through the OpenAI plugin submission workflow. Directory publication remains subject to platform checks and review.
 
 ## Internal material
 
-Private cases, evaluation outputs, execution records, reviews, handoff documents, and unapproved release drafts are stored under `docs/internal/` and excluded by `.gitignore`. Generated archives are stored under the ignored `dist/` directory. Neither directory is included in the plugin package.
+Private cases, evaluation outputs, execution records, reviews, handoff documents, and release preparation notes are stored under `docs/internal/` and excluded by `.gitignore`. Generated archives are stored under the ignored `dist/` directory. Neither directory is included in the plugin package.
 
 See the [privacy policy](https://herefindalex.github.io/skills/company-role-investigator/privacy-policy/) for data-handling details.
 

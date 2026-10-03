@@ -58,7 +58,9 @@ B2: JD. A Senior Backend Engineer builds APIs, works with designers, and partici
 
 **Support level:** Participation in discovery has direct textual support; its depth and associated authority remain unknown.
 
-**Validation question:** How did the most recent feature move from a user problem to a specification? Where did this engineer participate, and who decided what not to build?
+**Validation question:** How did the most recent feature move from a user problem to a specification? Where did this engineer participate, who decided what not to build, and what shipped? If the engineer helped frame the problem and choose scope, support for substantive discovery responsibility increases; if a separate product owner supplied a finished specification, narrow the interpretation to implementation with occasional technical input.
+
+**Maturity clarification:** Has a customer used it in paid production, a pilot, or exploration? If so, what was the most recent result, and who decided the next product step? Paid production with an ongoing customer commitment would make reliable delivery and maintenance more relevant; a pilot or exploratory use would keep product maturity unresolved and put more weight on validating requirements. If there has been no customer use, retain that limitation. None of these answers establishes revenue scale or a lack of product staff.
 
 **Unknowns:** Business model, payers, team size, current manager, and product maturity. Start with one useful hypothesis supported by the materials rather than filling three unsupported risks.
 

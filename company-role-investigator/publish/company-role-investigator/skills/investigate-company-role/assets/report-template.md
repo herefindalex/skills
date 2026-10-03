@@ -24,10 +24,10 @@ For each, follow the [Hypothesis card](../references/role-and-challenge-analysis
 
 ## 6. Interview validation
 
-Usually three to five questions, each linked to a hypothesis. Explain which answers would support or weaken it. Do not make every question point toward the same predetermined conclusion.
+Usually three to five questions, each linked to a hypothesis and requesting a recent actual example, who made the decision, and the outcome. Explain how two plausible answer patterns would revise the interpretation. If these questions and consequences already appear in the hypothesis cards, refer to them briefly or combine this section with the cards. Present each question once.
 
 ## 7. Unknowns and source limitations
 
 Unconfirmed points, unread originals, conflicts, and source scope. Do not hide important limitations until the end or place all sources in an isolated list of links.
 
-For follow-up updates, replace unnecessary background with original interpretation, new evidence, revision, and remaining question.
+For follow-up updates, replace unnecessary background with original interpretation, new evidence, revision, and remaining question. When the original assessment is unavailable, use the missing-context route in [Validation and updates](../references/validation-and-updates.md) before producing a revision. Omit private identifiers that are unnecessary to the work interpretation.

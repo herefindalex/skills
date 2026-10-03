@@ -1,7 +1,7 @@
 {
-  "name": "company-role-prototype",
+  "name": "company-role-investigator",
   "interface": {
-    "displayName": "Company Role Prototype"
+    "displayName": "Company & Role Investigator"
   },
   "plugins": [
     {
