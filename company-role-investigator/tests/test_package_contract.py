@@ -30,6 +30,30 @@ class PackageContractTests(unittest.TestCase):
     def test_minimal_portable_manifest(self):
         self.assertEqual(validate_package(self.root, mode='draft'), [])
 
+    def test_support_url_is_accepted(self):
+        edit_manifest(self.root, extensions={'com.openai': {
+            'interface': {'supportURL': 'https://example.com/support/'}
+        }})
+        self.assertEqual(self.codes(), set())
+
+    def test_unknown_interface_field_is_rejected(self):
+        edit_manifest(self.root, extensions={'com.openai': {
+            'interface': {'unknownField': 'unexpected'}
+        }})
+        self.assertIn('MANIFEST_SHAPE', self.codes())
+
+    def test_subtitle_over_30_characters_is_rejected(self):
+        edit_manifest(self.root, extensions={'com.openai': {
+            'interface': {'shortDescription': 'x' * 31}
+        }})
+        self.assertIn('RELEASE_METADATA', self.codes())
+
+    def test_subtitle_of_30_characters_is_accepted(self):
+        edit_manifest(self.root, extensions={'com.openai': {
+            'interface': {'shortDescription': 'x' * 30}
+        }})
+        self.assertEqual(self.codes(), set())
+
     def test_broken_reference(self):
         self.append('\n[missing](references/missing.md)\n')
         self.assertIn('MISSING_REFERENCE', self.codes())

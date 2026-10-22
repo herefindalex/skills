@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "company-role-investigator",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "Research companies and roles with sourced context, challenge hypotheses, and interview validation questions.",
   "author": {
     "name": "Alex Chang",
@@ -16,10 +16,10 @@
     "com.openai": {
       "interface": {
         "displayName": "Company & Role Investigator",
-        "shortDescription": "Understand a company, a role, and what to validate in an interview.",
+        "shortDescription": "Company and role research",
         "longDescription": "Research company and product context, role responsibilities, and evidence-based challenge hypotheses using available public sources and user-provided material. Distinguish sourced claims, inferences, alternatives, and unknowns, then prepare interview questions that can change the assessment.",
         "developerName": "Alex Chang",
-        "category": "Productivity",
+        "category": "Education & Research",
         "capabilities": [
           "Read"
         ],
@@ -31,7 +31,10 @@
         "brandColor": "#142e40",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png",
-        "privacyPolicyURL": "https://herefindalex.github.io/skills/company-role-investigator/privacy-policy/"
+        "websiteURL": "https://herefindalex.github.io/skills/company-role-investigator/",
+        "supportURL": "https://herefindalex.github.io/skills/company-role-investigator/support/",
+        "privacyPolicyURL": "https://herefindalex.github.io/skills/company-role-investigator/privacy-policy/",
+        "termsOfServiceURL": "https://herefindalex.github.io/skills/company-role-investigator/terms-of-service/"
       }
     }
   }
