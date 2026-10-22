@@ -12,7 +12,7 @@ Contact: [herefindalex@gmail.com](mailto:herefindalex@gmail.com)
 
 ## Scope
 
-Company & Role Investigator provides research instructions, reference material, and report templates for an assistant running in ChatGPT or Codex. Version 0.1.0 is a Skills-only plugin. It has no MCP server, publisher-operated backend, connected-account integration, lifecycle hook, analytics, or research-history database.
+Company & Role Investigator provides research instructions, reference material, and report templates for an assistant running in ChatGPT or Codex. This is a Skills-only plugin. It has no MCP server, publisher-operated backend, connected-account integration, lifecycle hook, analytics, or research-history database.
 
 ## Research information
 
@@ -45,3 +45,5 @@ There is no publisher-operated store of research history to retain or delete. Co
 ## Changes
 
 This policy describes the Skills-only functionality above. If a future version adds a backend, account integration, telemetry, or data storage, the policy will be updated before that functionality is distributed. Changes will be published on this page with a revised effective date.
+
+[Plugin home]({{ '/company-role-investigator/' | relative_url }}) · [Support]({{ '/company-role-investigator/support/' | relative_url }}) · [Terms of service]({{ '/company-role-investigator/terms-of-service/' | relative_url }})

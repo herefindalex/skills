@@ -23,7 +23,7 @@ SEMVER = re.compile(r'^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[0-9A-Za-z.-]
 SHA256 = re.compile(r'^[0-9a-f]{64}$')
 FORBIDDEN_KEYS = {'apps', 'hooks', 'mcpservers', 'mcp', 'skills'}
 ROOT_KEYS = {'$schema','name','version','description','extensions','author','homepage','repository','license','keywords'}
-INTERFACE_KEYS = {'displayName','shortDescription','longDescription','developerName','category','capabilities','websiteURL','privacyPolicyURL','termsOfServiceURL','defaultPrompt','brandColor','composerIcon','logo','screenshots'}
+INTERFACE_KEYS = {'displayName','shortDescription','longDescription','developerName','category','capabilities','websiteURL','supportURL','privacyPolicyURL','termsOfServiceURL','defaultPrompt','brandColor','composerIcon','logo','screenshots'}
 Finding = dict[str, str]
 
 
@@ -241,6 +241,11 @@ def validate_snapshot(root: Path, files: dict[str, bytes], *, mode: str,
     except (ValueError, TypeError) as exc:
         errors.append(finding('MANIFEST_SHAPE','plugin.json',str(exc)))
         interface = {}
+
+    subtitle = interface.get('shortDescription')
+    if isinstance(subtitle, str) and len(subtitle) > 30:
+        errors.append(finding('RELEASE_METADATA', 'plugin.json',
+                              'shortDescription must be 30 characters or fewer.'))
 
     skill_paths = [rel for rel in files if re.fullmatch(r'skills/[^/]+/SKILL\.md',rel)]
     if not skill_paths:
